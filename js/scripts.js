@@ -17,14 +17,7 @@ $(document).ready(function(){
     $("body").removeClass();
     $("body").addClass("red-background");
     $("p#user").text("Stop copying me!");
-    $("p#webpage").text("Pardon me, I meant no offense.>");
+    $("p#webpage").text("Pardon me, I meant no offense.");
   });
-
-  // $("ul#user").children("li").first().click(function() {
-  //   alert('hi');
-  // });
-  // $("ul#webpage").children("li").first().click(function() {
-  //   alert('hi');
-  // });
 
 });
