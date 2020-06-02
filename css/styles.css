@@ -1,3 +1,7 @@
+.jumbotron {
+  background-image: url(../img/flag.jpg);
+}
+
 .blue-background {
   background-color: blue;
   color: white;
@@ -11,4 +15,19 @@
 .red-background {
   background-color: red;
   color: blue;
+}
+
+#img1 {
+  display: none;
+  width: 50%;
+}
+
+#img2 {
+  display: none;
+  width: 50%;
+}
+
+#img3 {
+  display: none;
+  width: 40%;
 }

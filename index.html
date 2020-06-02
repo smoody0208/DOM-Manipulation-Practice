@@ -8,28 +8,40 @@
     <title>Talk to the webpage</title>
   </head>
   <body>
-    <div class="container">
-      <h1>Talk to the web page</h1>
-      <p>Click a button to say something to the web page.  See what it says back!</p>
-
+    <div class="container">  
+      <div class="jumbotron">
+        <h1>Talk to the web page</h1>
+        <br>
+        <p>Click a button to say something to the web page.  See what it says back!</p>
+      </div>    
+      <br>
       <button class="btn btn-primary" id="hello">Say "hello"</button>
       <button class="btn btn-inverse" id="goodbye">Say "goodbye"</button>
       <button class="btn btn-danger" id="stop">Say "stop copying me"</button>
 
       <div class="row">
         <div class="col-md-6">
+          <br>
           <h2>You said:</h2>
+          <br>
           <p class="unstyled" id="user">
 
           </p>
         </div>
         <div class="col-md-6">
+          <br>
           <h2>The web page said back:</h2>
+          <br>
           <p class="unstyled" id="webpage">
 
           </p>
         </div>
-
+      </div>
+      <div class="container">
+        <br>
+        <img src="img/hello.jpg" id="img1">
+        <img src="img/goodbye.jpg" id="img2">
+        <img src="img/stop.jpg" id="img3">
       </div>
     </div>
   </body>
