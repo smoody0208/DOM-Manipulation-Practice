@@ -2,21 +2,29 @@ $(document).ready(function(){
   $("button#hello").click(function(){
     $("body").removeClass();
     $("body").addClass("blue-background");
-    $("ul#user").prepend("<li>Hello!</li>");
-    $("ul#webpage").prepend("<li>Why hello there!</li>");
+    $("p#user").text("Hello!");
+    $("p#webpage").text("Why hello there!");
   });
 
   $("button#goodbye").click(function(){
     $("body").removeClass();
     $("body").addClass("white-background");
-    $("ul#user").prepend("<li>Goodbye!</li>");
-    $("ul#webpage").prepend("<li>Goodbye, dear user!</li>");
+    $("p#user").text("Goodbye!");
+    $("p#webpage").text("Goodbye, dear user!");
   });
 
   $("button#stop").click(function(){
     $("body").removeClass();
     $("body").addClass("red-background");
-    $("ul#user").prepend("<li>Stop copying me!</li>");
-    $("ul#webpage").prepend("<li>Pardon me, I meant no offense.</li>");
+    $("p#user").text("Stop copying me!");
+    $("p#webpage").text("Pardon me, I meant no offense.>");
   });
+
+  // $("ul#user").children("li").first().click(function() {
+  //   alert('hi');
+  // });
+  // $("ul#webpage").children("li").first().click(function() {
+  //   alert('hi');
+  // });
+
 });
